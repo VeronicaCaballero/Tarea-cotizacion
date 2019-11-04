@@ -1,0 +1,22 @@
+nav{
+	height: 50px;
+	background-color: #ccc;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	padding-top: 1px
+}
+ul li{
+	/*cambia la disposiciom de bloque a linea*/
+	display: inline;
+	margin-left: 20px;
+	font-family: arial;
+	font-size: 1.2em;
+	color:white;
+
+
+}
+a{
+/*elimina el subrayado*/
+text-decoration:  none;
+color:white;
+}

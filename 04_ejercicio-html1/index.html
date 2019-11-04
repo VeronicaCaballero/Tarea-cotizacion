@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/estilo_formulario.css">
+	<link rel="stylesheet" href="css/estilo_menu.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li>
+				<a href="perfil.html">Perfil</a>
+			</li>
+			<li>
+				<a href="index.html">Formulario</a>
+			</li>
+
+
+
+		</ul>
+
+
+
+	</nav>
+	<h3>Formulario de registro</h3>  <!-- H3 son los titulos-->
+
+	<section>
+		<form method="GET">
+		
+		<label for="nombre">Nombre:</label>
+		<input type="text" name="nombre" id="nombre"
+		placeholder="ingrese su nombre" maxlength="50"
+		required="">
+		<br>
+		<label for="apellido">Apellido:</label>
+		<input type="text" name="Apellido" id="apellido"
+		placeholder="ingrese su apellido" maxlength="50"
+		required=>
+		<br>
+		<label for="dia">Fecha de Nacimiento</label>
+		<input type="number" name="" id=" dia "placeholder=
+		"dia" required min="1" max="31"> /
+		<input type="number" name="mes" id="mes"  placeholder="mes"
+		required min="1" max="12"> / 
+		<input type="number" name="año"  id="año"  placeholder="año"
+		required min="1900"  max="1999" step="10"> /
+		<br>
+		<br>
+
+		<label for="sexo">Sexo</label>
+		<label for="sexo_1"> 
+			Hombre:
+			<input type="radio" name="sexo" id="sexo_1" value="H">
+		</label>
+		<label for="sexo_2">
+			Mujer:<input type="radio" name="sexo" id="sexo_2" value="M">
+		</label>
+	
+	<br>
+	<br>
+
+	<label for="correo">E-mail:</label>
+	<input type="email" name="correo" id="corre" placeholder="Ingrese su correo">
+
+	<br>
+	<br>
+
+	<label for="seña_1">Contraseña</label>
+	<input type="password" name="senha_1" id="senha_1" 
+	required minlength="6" placeholder="Ingrese la contraseña">
+<br>
+<br>
+
+<label for="senha_2">Confirmacion de contraseña</label>
+<input type="password" name="senha_2" id="senha_2" required minlength="6" placeholder="Confirmacion la contraseña">
+
+<br>
+<br>
+
+<input for="novedades">
+Desea recibir novedades?
+<input type="checkbox" name="novedades" id="novedades" checked>
+<label >
+	<br>
+	<br>
+
+<label for="condiciones">
+	Aceptar condiciones?
+	<input type="checkbox" name="condiciones" 
+	id="condiciones">
+	
+</label>
+ <br>
+ <br>
+
+	<input type="submit">	
+	</form>
+
+
+	
+</body>
+</html>
+	</section>

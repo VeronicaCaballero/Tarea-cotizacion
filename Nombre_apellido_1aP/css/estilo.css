@@ -1,0 +1,15 @@
+body{
+width: 80%;
+	padding: 2em auto;
+	color: #eee
+
+}
+nav{
+	background: color:#ccc;
+	padding: 5px, 3px
+	border-radius:10px;
+}	
+
+li{
+	padding-left: 10px;
+}

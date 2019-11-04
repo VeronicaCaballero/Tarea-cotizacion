@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cambios</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    
+</head>
+<body>
+
+    <div><h1 class="jumbotron-heading" id="titulo" > <b>CAMBIO DE DIVISAS A Gs.</b> </h1>
+    </div><br>
+    <div class="jumbotron" id="jum">
+        <label for="cambio" id="divisas">Divisas</label><br>
+       <select name="cambio1" id="moneda">
+       <option value="6000">Dolar</option>
+       <option selected="true" value="1500">Real</option>
+       <option value="250">Peso</option>
+        </select><br>
+        <input type="number" id="monto" placeholder="Ingrese el valor"><br>
+        <button type="button" class=" btn-success" id="btnCalcular">Calcular</button>
+    </div>
+    <div class="jumbotron" id="jum">
+        <p>Cotizacion: <span id="cotizacion"> </span> </p>
+        <p>Monto: <span id="monto_ing"></span> </p>
+        <p>Cambio: <span id="resultado"></span></p>
+        
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

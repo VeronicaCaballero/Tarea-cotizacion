@@ -1,0 +1,26 @@
+h1{
+    font-style: "verrtical-aling: inherit";
+    text-align: center;
+    padding: 2%;
+}
+#jum{
+    width: 50%;
+    margin-left: 20%;
+}
+#moneda{
+    margin: 1%;
+    border-radius: 12%;
+}
+#monto{
+    margin: 1%;
+    border-radius: 9%;
+    size: "45";
+}
+#btnCalcular{
+    margin: 1%;
+}
+#divisas{
+    margin-left: 2%;
+    
+}
+

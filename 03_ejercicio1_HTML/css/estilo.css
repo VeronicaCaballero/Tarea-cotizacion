@@ -1,0 +1,30 @@
+/*selector {
+	propiedades:valores;
+
+}*/
+h1{
+	text-align: center;
+	color: red; 
+}
+
+body{
+	width: 90%;
+	margin: 50px auto;
+	background: #ccc;
+}
+
+
+/*#= id */
+#subt1{
+color: green;
+
+}
+#subt2{
+	color: orange;
+}
+
+/*.=clase*/
+.parrf{
+	text-align: right;
+	font-family: helvetica;
+}

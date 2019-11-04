@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>info</title>
+	<link rel="stylesheet" type="text/css" href="Css/estilo.css">
+</head>
+<body>
+	<section>
+		<h3>Informacion sobre productos</h3>
+		<form action="/procsa_formulario.php">
+
+	 <fieldset id= inf1> 
+	 	<legend>Datos basicos</legend>
+	 	Nombre del producto:<br>
+	 	<input type="text" name="nombre"placeholder="Ingrese el nombre"> <br>
+	 	<br>
+	 	Descripcion:<br>
+	 	<textarea name="Descripcion" id="des" cols="35" rows="10"placeholder="Ingrese la descripcion"></textarea>
+	 	<br><br>
+	 		Foto:<input type="file" name="foto" value="">
+	 		<br><br>
+	 		<input type="checkbox" name="stock" value=""> Controla stock
+	 	
+	 </fieldset>
+
+	 <fieldset id="info2">
+	 	<legend>Datos especificos</legend>
+	 	Precio de compra:<input type="text" name="compra" placeholder="Compra">
+	 	Precio de venta:<input type="text" name="venta" placeholder="Venta"><br><br>
+	 	Cantidad de stock:<input type="text" name="stock" placeholder="Existencia"><br><br>
+	 	Stock minimo:<input type="text" name="minimo" placeholder="Minimo">
+	 	
+	 </fieldset>
+	 <br>
+	 <fieldset id="info3">
+          <input type="submit" value="Guardar">
+          <input type="reset" value="Modifica">
+          <input type="reset" value="Cancelar">
+	 </fieldset>
+     </form>
+	</section>
+	
+</body>
+</html>

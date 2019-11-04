@@ -1,0 +1,31 @@
+body{
+	width: 80%;
+	margin: 0 auto;
+	background:url('../css/descarga.jpg');
+	background-size: cover;
+
+}
+h3{
+	text-align: center;
+	color: white;
+	/*sombra:recibe 4 parametros,la posicion en y, en x, el grosor y el color */;
+	text-shadow: 0px 0px 3px black, 0px 0px 8px red;
+	/*tamaño de letras*/
+	font-size: 2em;
+	/*tamaño de letra*/
+	font-family: arial;
+}
+
+section{
+	width: 80%
+	margin:20px auto;
+	border:solid 1px #ccc;
+	padding: 30px 50px;
+	/*padding-top: ;
+	padding-left: ;
+	padding-right: ;
+	padding-bottom: ;*/
+
+	/*sombra de la caja*/
+	box-shadow: 0px 0px 10px 1px black;
+}
